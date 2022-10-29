@@ -1,0 +1,19 @@
+.clients .container {
+  padding: 0 15px 70px;
+}
+
+.clients__title {
+  margin-bottom: 60px;
+}
+
+.clients__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.clients__logo img{
+    max-width: 250px;
+    object-fit: cover;
+    margin-bottom: 45px;
+}

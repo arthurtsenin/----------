@@ -1,0 +1,14 @@
+:root {
+	--color-orange: #ff5900;
+	--color-orange-hover: #ca4600;
+	--color-typography: #212121;
+	--color-gray: #333333;
+	--color-grayLight: #f4f4f4;
+	--color-white: #ffffff;
+	--fz-headline1: 68px;
+	--fz-headline2: 38px;
+	--fz-headline3-button1: 18px;
+	--fz-text-link: 14px;
+	--fz-button2: 16px;
+}
+

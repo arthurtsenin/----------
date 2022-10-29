@@ -1,0 +1,60 @@
+.book .container {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book__img {
+  max-width: 360px;
+  margin-right: 60px;
+}
+
+.book__img img {
+  width: 100%;
+  object-fit: cover;
+}
+.book__title {
+  padding-bottom: 56px;
+}
+
+.book__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left__text {
+  max-width: 360px;
+  font-weight: 500;
+  font-size: var(--fz-button2);
+  line-height: 140%;
+  color: var(--color-typography);
+  opacity: 0.5;
+}
+
+.right__text {
+  max-width: 350px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #212121;
+}
+
+.right__text button {
+  margin-top: 40px;
+}
+.right__text button  {
+	padding: 20px 40px;
+	max-width: 303px;
+	background: var(--color-orange);
+	backdrop-filter: blur(2.5px);
+	border-radius: 100px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--color-white);
+}
+
+
+.right__text button:hover {
+	background: var(--color-orange-hover);
+}

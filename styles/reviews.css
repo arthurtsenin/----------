@@ -1,0 +1,67 @@
+.reviews .container {
+  padding: 0 0 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews__title {
+  margin-bottom: 60px;
+}
+
+.reviews__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.reviews__row::before {
+  content: "";
+  background: url(../assets/main/reviews/button-left.png) 0 0 / cover no-repeat;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: -55px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.reviews__row::after {
+  content: "";
+  background: url(../assets/main/reviews/button-right.png) 0 0 / cover no-repeat;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: -55px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.reviews__cards {
+  width: 360px;
+  height: 420px;
+  background: var(--color-grayLight);
+}
+
+.reviews__button {
+  background: white;
+  align-self: center;
+  max-width: 244px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ff5900;
+  border: 1px solid #ff5900;
+  border-radius: 100px;
+  padding: 16px 32px;
+}
+
+.reviews__button:hover {
+  background: var(--color-orange-hover);
+  color: var(--color-white);
+  border: 1px solid var(--color-orange-hover);
+}
